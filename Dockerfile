@@ -14,4 +14,4 @@ RUN apt-get update && apt-get install -y wget gnupg curl ca-certificates fonts-l
 COPY . .
 
 # Run the Python script
-CMD ["python", "auto_clicker.py"]
+CMD ["python", "main.py"]
